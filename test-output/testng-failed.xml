@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.zyto.test.TestCases.Create_New_Account_Test">
+        <methods>
+          <include name="Click_On_Create_button"/>
+          <include name="Click_world_icon"/>
+          <include name="SetUp"/>
+          <include name="Click_Signin_button"/>
+          <include name="EndTest"/>
+        </methods>
+      </class> <!-- com.zyto.test.TestCases.Create_New_Account_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
